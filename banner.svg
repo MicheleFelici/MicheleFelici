@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Michele Felici, sviluppatore .NET">
+  <defs>
+    <radialGradient id="rosa" cx="12%" cy="0%" r="70%">
+      <stop offset="0" stop-color="#ff4fd8" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#ff4fd8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ciano" cx="100%" cy="100%" r="60%">
+      <stop offset="0" stop-color="#3ef0ff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#3ef0ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="crt" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity=".035"/>
+    </pattern>
+    <clipPath id="digita">
+      <rect x="80" y="196" width="0" height="50">
+        <animate attributeName="width" from="0" to="1000" dur="3s" begin="0.4s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <rect width="1200" height="300" fill="#0d0b14"/>
+  <rect width="1200" height="300" fill="url(#rosa)"/>
+  <rect width="1200" height="300" fill="url(#ciano)"/>
+  <rect x="1" y="1" width="1198" height="298" rx="14" fill="none" stroke="#2b2640" stroke-width="2"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
+    <text x="80" y="92" font-size="22" fill="#3ef0ff" letter-spacing="2">$ whoami</text>
+    <g font-size="84" font-weight="700" letter-spacing="-2">
+      <text x="86" y="176" fill="#ff4fd8" opacity=".75">Michele Felici</text>
+      <text x="74" y="176" fill="#3ef0ff" opacity=".6">Michele Felici</text>
+      <text x="80" y="176" fill="#ece6f5">Michele Felici</text>
+    </g>
+    <g clip-path="url(#digita)">
+      <text x="80" y="234" font-size="30" fill="#9089a6">.NET Developer · C# · WPF · SQL Server · PLC/ERP · AI/LLM</text>
+    </g>
+    <rect x="80" y="210" width="16" height="30" fill="#3ef0ff">
+      <animate attributeName="x" from="80" to="1064" dur="3s" begin="0.4s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect width="1200" height="300" fill="url(#crt)"/>
+</svg>
